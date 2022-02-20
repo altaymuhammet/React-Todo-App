@@ -1,0 +1,13 @@
+.error {
+     width: 90%;
+     color: #f7292d;
+     margin: 0 auto 20px auto;
+     font-size: 1.5rem;
+     font-weight:bold;
+     border-radius: 20px;
+     text-align: center;
+
+     position: absolute;
+     left: 5%;
+     top: 80px;
+}

@@ -1,0 +1,14 @@
+.container {
+     width: 70%;
+     min-height: 80vh;
+     background-color: #03071e;
+     box-shadow: 0 0 15px #012233;
+     margin : 50px auto;
+     padding: 20px 20px;
+     border-radius: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     position: relative;
+}
