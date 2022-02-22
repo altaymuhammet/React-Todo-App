@@ -13,12 +13,7 @@ const EmptyList = () => {
 }
 
 const App = () => {
-  const [todos, setTodos] = useState([{
-    id: Math.floor(Math.random() * 99999),
-    inputValue: "Bu bir denemdir.",
-    dateValue: "20/04/1995",
-    isCompleted: false,
-  }]);
+  const [todos, setTodos] = useState([]);
   const [errorHandler, setErrorHandler] = useState(false);
 
   const getValuesHandler = (value, id) => {
